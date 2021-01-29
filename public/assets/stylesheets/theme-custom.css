@@ -1,0 +1,129 @@
+/* Add here all your CSS customizations #e0f2f7 #40A7E6  #f2f90a */
+
+ul.nav-main li a {
+    color: #FFF;
+}
+
+body {
+    /* background: #FFF; */
+    background: rgb(198, 206, 222);
+} 
+
+html.no-overflowscrolling .sidebar-left .nano {
+    background: rgb(18, 18, 49);
+    box-shadow: -5px 0 0 rgb(18, 18, 49) inset;
+}
+
+ul.nav-main li a {
+    color: rgb(184, 192, 208);
+}
+
+ul.nav-main li .nav-children {
+    background: rgb(18, 18, 49);
+    box-shadow: 0px -3px 3px -3px rgba(0, 0, 0, 0.7) inset;
+    display: none;
+    padding: 10px 0;
+}
+
+ul.nav-main > li.nav-expanded > a {
+    background: rgb(18, 18, 49);
+}
+
+html.no-overflowscrolling .nano > .nano-pane > .nano-slider {
+    background: rgb(18, 18, 49);
+}
+
+.page-header h2 {
+    border-bottom-color: rgb(255, 128, 0);
+}
+
+.page-header {
+    /* background: rgb(18, 18, 49);*/
+    background: rgb(0, 110, 132); 
+    border-bottom: none;
+    /* border-left: 1px solid rgb(18, 18, 49); */
+    border-left: 1px solid rgb(0, 110, 132);
+    /*box-shadow: 1px 3px 0 1px rgb(18, 18, 49); */
+    box-shadow: 1px 3px 0 1px rgb(18, 18, 49);
+    height: 50px;
+    margin: -40px -40px 40px -40px;
+    padding: 0;
+}
+
+.header {
+    background: rgb(255, 183, 15);
+    border-bottom: 1px solid rgb(247, 247, 247);
+    border-top: 3px solid rgb(255, 183, 15);
+    z-index: 1000;
+}
+
+.userbox .role{
+    color :  black;
+}
+
+.sidebar-left .sidebar-header .sidebar-title{
+    background: rgb(18, 18, 49);
+    color: rgb(184, 192, 208);
+}
+
+.sidebar-left .sidebar-header .sidebar-toggle{
+    background-color: rgb(18, 18, 49);
+}
+
+ul.nav-main > li > a:hover, ul.nav-main > li > a:focus {
+    background-color: rgb(52, 105, 208);
+}
+
+ul.nav-main li .nav-children li a:hover, ul.nav-main li .nav-children li a:focus {
+    background: rgb(52, 105, 208);
+}
+
+ul.nav-main > li.nav-active > a:hover {
+    color: #00000;
+}
+
+.dropdown-menu{
+    background-color: rgb(255, 221, 115)
+}
+
+html.no-overflowscrolling.custom-scroll .nano > .nano-content {
+    background-color: rgb(18, 18, 49);
+}
+
+html.no-overflowscrolling .nano > .nano-content {
+    background-color: rgb(18, 18, 49);
+    color: aliceblue;
+}
+
+html:not(.sidebar-light) .datepicker.datepicker-dark table thead tr th.dow {
+    color: rgb(255, 235, 115);
+}
+
+.sidebar-right h6 {
+    color: rgb(255, 227, 64);
+}
+
+html:not(.sidebar-light) .datepicker.datepicker-dark table tbody tr td.day:hover {
+    background-color: rgb(18, 18, 49);
+    color: rgb(184, 192, 208);
+}
+
+td.old.day{
+   color: rgb(255, 239, 0);
+}
+
+html:not(.sidebar-light) .datepicker.datepicker-dark table tbody tr td.day.new:hover {
+    color: rgb(184, 192, 208);
+}
+
+.list-unstyled {
+    margin-top: 30px;
+}
+
+.dropdown-menu .divider {
+    background-color: rgb(166, 132, 0);
+}
+
+.datepicker .datepicker-switch:hover, .datepicker .prev:hover, .datepicker .next:hover, .datepicker tfoot tr th:hover {
+    background: rgb(18, 18, 49);
+}
